@@ -61,6 +61,6 @@ async function fetchCandidates() {
     const partiVotes = document.getElementById("parti-votes");
     console.log(parti);
     partiTitle.innerText = parti.name;
-    partiVotes.innerText = `Votes: ${parti.votes}`
+    partiVotes.innerText = `Stemmer: ${parti.votes}`
     
   });
