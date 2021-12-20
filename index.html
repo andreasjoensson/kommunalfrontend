@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kommunalvalg - Rødovre</title>
+    <link rel="stylesheet" href="assets/css/global.css"/>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+</head>
+<body>
+<script id="replace_with_navbar" src="./assets/javascript/nav.js"></script>
+
+<div class="jumbotron jumbotron-fluid">
+    <div class="container">
+      <h1 class="display-4">Rødovre Kommunalvalg</h1>
+      <p class="lead">Vælg hvem du vil stemme på samt for at få et overblik over valget.</p>
+    </div>
+  </div>
+
+<div class="row">
+    <div class="col-sm-6" style="display: flex; justify-content: center;">
+     <canvas id="partiChart" width="400" height="400"></canvas>
+    </div>
+
+    <div class="col-sm-6" style="display: flex; justify-content: center;">
+     <canvas id="kandidatChart" width="400" height="400"></canvas>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="assets/javascript/overview.js">
+  </script>
+
+</body>
+</html>
